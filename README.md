@@ -22,7 +22,7 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 ## What to buy
 
 | Name & Image | URL |
-| --- | --- | --- |
+| --- | --- |
 | DIY 5K Universal R1811 V.4 Driver Board USB-C Freesync EDP DP1.4 Compatible for iMac LM270QQ1 LM270QQ2 Screen External Monitor - **model LM270QQ1**  
 ![driver board](images/5K%20Display%20Driver%20Board.png) | https://www.aliexpress.com/item/1005002734914614.html |
 | High-quality DIY Universal Driver Board 50W Current Board DZ-LP0818 Resolve the Panel brightness problem LM270QQ1 LM270QQ2 - **model LM270QQ1**  
