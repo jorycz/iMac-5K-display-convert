@@ -23,4 +23,7 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 
 | Name | Image | URL |
 | --- | --- | --- |
-| DIY 5K Universal R1811 V.4 Driver Board USB-C Freesync EDP DP1.4 Compatible for iMac LM270QQ1 LM270QQ2 Screen External Monitor | ![](images/5K%20Display%20Driver%20Board.png) | https://www.aliexpress.com/item/1005002734914614.html |
+| DIY 5K Universal R1811 V.4 Driver Board USB-C Freesync EDP DP1.4 Compatible for iMac LM270QQ1 LM270QQ2 Screen External Monitor - **model LM270QQ1** | ![driver board](images/5K%20Display%20Driver%20Board.png) | https://www.aliexpress.com/item/1005002734914614.html |
+| High-quality DIY Universal Driver Board 50W Current Board DZ-LP0818 Resolve the Panel brightness problem LM270QQ1 LM270QQ2 - **model LM270QQ1** | ![current board](images/Current%20Board%20for%20correct%20brithness.png) | https://www.aliexpress.com/item/1005001660237411.html |
+| 4K 3840 x 2160 12MP HD IMX258 USB Camera Module AF/FF 75/80/120/135 Degree 30FPS for Face Recognition - **model 75deg AF** | ![camera](images/4k%20USB%20camera.png) | https://www.aliexpress.com/item/1005007360663282.html |
+| Noctua NF-A4x10 40mm Computer Case Fan 5V/12V PWM SSO Magnetically Stabilized Bearing Quiet Cooling Fan - **model 12V 4PIN PWM, Other, NO RGB** | ![noctua fan](images/Noctua%20Fan.png) | https://www.aliexpress.com/item/1005005402810322.html or local store |
