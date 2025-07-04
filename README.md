@@ -3,22 +3,22 @@
 Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection. Ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case. Files for 3D printer are included.
 
 
-## What is included
+## What is inside the iMac case
 
 - Camera 3840 x 2160 12MP
 - Original speakers with custom Crossovers (audio polypropylene capacitor and air-cored inductor)
-- Microphone is outside of the case for better sound quality, but still needs app with echo canceling for video calls
 - Driver Board R1811 V4 (brain of the display)
 - Stock Power Adapter reusing iMac power connector
 - Current Board DZ-LP0818 (brightness board)
 - Noctua fan in position of Apple logo in the back
 - USB 2.0 hub (4 ports) for camera and 3x USB 2.0 ports outside of the case
-
+- Microphone is finally **outside of the case** for better sound quality, but still needs app with echo canceling for video calls
+  - I tried microphones inside the case, but my voice was somehow distorted during video calls
 
 ## What you need
 
 - Patience
-- Dremel
+- Dremel or similar tool
 - Basic soldering skills with soldering stuff
 - Wires for connecting speakers and crossovers with driver board and also modifying the stock fan for quietter operation
 
@@ -45,6 +45,8 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 | 2W 180 Ohm rezistor to make stock fan quiet ![180 ohm rezistor](images/2W%20180%20Ohm%20rezistor.jpg) | https://www.gme.cz/v/1488150/gym-cym-rmo-180r-2w-5-0411-metal-oxidovy-rezistor or local store |
 | MOLEX 43640-0301 Micro-Fit 3.0 female 3mm, 1x3pin, for cable ![molex female](images/Molex%20Micro-Fit%203%20pin.jpg) | https://www.gme.cz/v/1502876/molex-43640-0301-micro-fit-30-vidlice-roztec-3mm-1x3piny-prima-na-kabel or local store |
 | MOLEX 43031-0007 male for Molex Micro-Fit ![molex male](images/Molex%20Micro-Fit%20krimpovaci%20kontakt.jpg) | https://www.gme.cz/v/1502732/molex-43031-0007-krimpovaci-kontakt or local store |
+| Tape 300 x 3,6 mm 100 pcs white ![vorel tape](images/VOREL%20Tape%20300.jpg) | https://www.alza.cz/EN/vorel-tape-300-x-3-6-mm-100-pcs-white-d8069517.htm or local store |
+| M3 Screw Bolt Nuts Kit 3x12mm ![m3](images/M3%20sroub%20matka.jpg) | https://www.gme.cz/v/1511744/wurth-slkm3x10-ocelovy-sroub-m3x10mm-phillips-zapustna-hlava-pozinkovany and https://www.gme.cz/v/1511808/wurth-skm3k-matice-m3 or local store |
 
 ### Microphone
 
@@ -61,5 +63,30 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 | 2x audio polypropylene capacitor 10µF | local store |
 | 2x air-cored inductor 0,15mH | local store |
 
+If you don't want to use crossovers, you can connect the speakers to series.
+
 
 ## What to print on 3D printer
+
+All STL files are in stl folder.
+
+- Current Board
+- Custom Crossover Left
+- Custom Crossover Right
+- Driver Board pad 6 mm (for top right side of the driver board)
+- Driver Board pad 9 mm (for top left side of the driver board)
+- Driver Board
+- Microphone Box - front
+- Microphone Box - main
+- PWM Control Module Box - back
+- PWM Control Module Box - main
+- R1811 Control Strip - back
+- R1811 Control Strip - main
+- USB Camera Mount
+  - For camera, I used Camera Mount from here https://www.printables.com/model/311111-apple-imac-27-2014-5k-monitor-conversion
+
+
+## Build
+
+First cut ![](cimages/0%20first%20cut-2.jpeg)
+
