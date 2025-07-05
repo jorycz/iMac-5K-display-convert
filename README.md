@@ -112,13 +112,11 @@ Connect cables to boards. Do not forget R1811 control strip which is on the bott
   
 ![borads test](cimages/1200_boards%20first%20testing.jpeg)
 
-- When you connect power, OSD should appear on display. If not, turn on driver board by button next to remote diode on control strip. Then connect Mac using USB-C port and it should detect display and show desktop. Mine is detected iMacPro5K.
+- When you connect power, OSD should appear on display. If not, turn on driver board by button next to remote diode on control strip. Then connect Mac using USB-C port and it should detect display and show desktop. Mine is detected as iMacPro5K.
 
 ### Speaker connectors
 
-With concatcs facing you it is:
-
-| Speaker connector | Description of PINs |
+| Speaker connector with contacts facing you | Description of PINs |
 | --- | --- |
 | ![speaker connector](cimages/800_sound%20repro%20connection.jpeg) | **Woofer +**<br>**Woofer -**<br>ID link (ignore)<br>ID link (ignore)<br>**Tweeter +**<br>**Tweeter -** |
 
