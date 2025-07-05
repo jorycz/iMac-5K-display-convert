@@ -91,9 +91,9 @@ All STL files are in stl folder.
 ## Build
 
 - For disassembly, see any video for example this one from [How-FixIT](https://www.youtube.com/watch?v=96MiQn645jI)
-- **Beware!** Use designated opening tool only, otherwise you can cut the cable to display which is near the top. If you use any other cutter, **do not cut too deep!** If do so, you will probably break the ribbon cable and result could be like in this post on Mac Rumors forum [DIY 5k Monitor - success :-)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/post-32835650).
-- If you have other model than iMac 2017, check display type before ordering driver board. When you dismount the display, type is in lower right part of the display. For iMac 2017, it is LM270QQ1.
-- If you don't want to use crossovers, remove the crossovers from the driver board and connect the speakers directly to the driver board. Speakers can be connected to series like this ![speaker to series](cimages/800_sound%20speaker%20to%20series.jpeg).
+- **Beware!** Use designated opening tool only, otherwise you can cut the cable to display which is near the top. If you use any other cutter, **do not cut too deep!** If do so, you will probably break the ribbon cable and result could be like in this post on Mac Rumors forum [DIY 5k Monitor - success :-)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/post-32835650)
+- If you have other model than iMac 2017, check display type before ordering driver board. When you dismount the display, type is in lower right part of the display. For iMac 2017, it is LM270QQ1
+- If you don't want to use crossovers, connect the speakers directly to the driver board. Speakers can be connected to series in speaker connector like this ![speaker to series](cimages/800_sound%20speaker%20to%20series.jpeg)
 
 ### First cut :)
 
@@ -101,14 +101,18 @@ All STL files are in stl folder.
 
 ### Connecting and first testing
 
-When it all arrives, test driver board and current board.
+When all parts arrives, test driver board and current board. Pay attention to details. Cables must be positioned exactly like on pictures.
+
 | Brightness cable connection to display | LVDS cable connection to display |
 | --- | --- |
 | ![bcable](cimages/800_cable%20display%20backlight.jpeg) | ![lvds](cimages/800_cable%20display%20connection%20-%20to%20lcd.jpeg) |
 
 
-Connect boards like this:  
+Connect cables to boards. Do not forget R1811 control strip.  
+  
 ![borads test](cimages/1200_boards%20first%20testing.jpeg)
+
+- When you connect power, OSD should appear on display. If not, turn on driver board by button next to remote diode on control strip. Then connect Mac using USB-C port and it should detect display and show desktop. Mine is detected iMacPro5K.
 
 ### Speaker connectors
 
