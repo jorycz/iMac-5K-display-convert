@@ -156,6 +156,9 @@ I wanted to reuse power connector of iMac 2017. If you don't want to, you can sk
 
 ### Fans
 
+- **Noctua fan with PWM control module** is used as case fan. It sucks hot air from the case to outside and speed is controlled by PWM with probe behind power supply.
+- **Stock fan on R1811 CPU with W1209 and 180 Ω resistor** is modified like this to be more quiet. Resistor is bridged when specified temperature is reached.
+
 Power Supply is in iMac case so I need some fresh air in there but also keep display quiet. So I modified Apple logo and placed Noctua fan there which (after small cutout on the left side) fits this space perfectly.
 
 - Use heatgun for a couple of seconds to get rid of the thin cover
@@ -163,11 +166,11 @@ Power Supply is in iMac case so I need some fresh air in there but also keep dis
 - Mark 4 holes for mounting the fan
 - Then I used thin and very sharp knife to mark circle around fan so I know where to cut the circle to logo
 
-![noctua 1](cimages/1200_fan%20top%20Noctua%201.jpeg)  
-![noctua 2](cimages/1200_fan%20top%20Noctua%202.jpeg)  
-![noctua 3](cimages/1200_fan%20top%20Noctua%203.jpeg)  
-![noctua 4](cimages/1200_fan%20top%20Noctua%204.jpeg)  
-![noctua 5](cimages/1200_fan%20top%20Noctua%205.jpeg)  
+![noctua 1](cimages/800_fan%20top%20Noctua%201.jpeg)  
+![noctua 2](cimages/800_fan%20top%20Noctua%202.jpeg)  
+![noctua 3](cimages/800_fan%20top%20Noctua%203.jpeg)  
+![noctua 4](cimages/800_fan%20top%20Noctua%204.jpeg)  
+![noctua 5](cimages/800_fan%20top%20Noctua%205.jpeg)  
 
 - Connect fan to extension cable included in Noctua box with fan and then to PWM control module.
 
@@ -181,20 +184,34 @@ Power Supply is in iMac case so I need some fresh air in there but also keep dis
 
 ![jst xh fan noctua](cimages/800_fan%20top%20Noctua%20connector%20removed%20lines.jpeg)
 
-- Connect this connector (later) to driver board here. **Ignore cable colors on my pictures, just connect + on driver board to + cable on PWM module** and the same with -
+- Connect this connector (after soldering to PWM power cables) to driver board here
+- **Ignore cable colors on my pictures, just connect + on driver board to + cable on PWM module** and the same with -
 - Polarity is written on the back of the driver board but to be sure, **use multimeter to check polarity!**
 
 | Power for PWM control module for Noctua fan | Polarity. Check with multimeter! |
 | --- | --- |
 | ![jst xh noctua control connected to driver board](cimages/800_fan%20top%20Noctua%20power%20connection.jpeg) | - - + + + |
 
-- PWM control module. Connect Noctua extension cable on the right side.
+- PWM control module. Connect Noctua fan extension cable on the right side and power to left upper side.
 
 ![PWM control module](cimages/800_PWM%20control%20module%20schema.png)
 
-- Solder connectors for power of the PWM module and connect it like this
-  - On the right side, there is fully connected PWM control module with Noctua extended cable, power from driver board and (included) probe.
-  - On the left side, there is simple relay W1209 module with 180 Ω resistor (hidden in insulation) on +ve wire of stock fan.
+- Connection overview of PWM control module for Noctua fan and W1209 relay module for stock fan
+  - On the right side, fully connected PWM control module with Noctua extended cable, power from driver board and (included) probe (hidden).
+  - On the left side, simple relay W1209 module with 180 Ω resistor (hidden in insulation) on +ve wire of stock fan.
 
 ![pwm power wires](cimages/1200_fan%20connection%20controllers%20on%20board.jpeg)
 
+- Temperature probe of W1209 is placed on stock fan using this office clip. Red part is just insulation of holder.
+
+![stock fan probe](cimages/800_fan%20main%20probe%20holder.jpeg)
+
+- Connection schema of W1209 with resistor for stock fan.
+
+![stock fan w1209](cimages/1200_stock%20fan%20w1209%20connection.png)
+
+- I increased the size of the hole in the case of W1209
+
+| Increased hole in the case | So wires can easily go behind the case |
+| --- | --- |
+| ![w1209 case](cimages/800_fan%20main%20controler%20case%20hole.jpeg) | ![w1209 connections](cimages/800_fan%20main%20controler%20connections.jpeg) |
