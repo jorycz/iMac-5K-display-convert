@@ -18,6 +18,7 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 ## What you need
 
 - Patience
+- Prudence
 - Dremel or similar tool
 - Basic soldering skills with soldering stuff
 - Wires for connecting speakers and crossovers with driver board and also modifying the stock fan for quietter operation
@@ -39,8 +40,9 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 | Small 2.0 USB Hub with 4 ports. I used Vention 4-Port USB 2.0 Hub with Power Supply 0.15m Black ![USB 2.0 hub](images/VENTb8.jpg) | https://www.alza.cz/vention-4-port-usb-2-0-hub-with-power-supply-0-15m-black-d5859680.htm or local store |
 | 90 Degree Right Angle USB 3.1 Type C Male To Female Converter USB-C Adapter for Samsung Huawei Smart Phone Portable Connector - **model NO.1** ![usb-c 90 Degree Right Angle](images/90%20Degree%20Right%20Angle%20USB%203.1%20Type%20C%20Male%20To%20Female%20Converter%20USB-C%20Adapter.png) | https://www.aliexpress.com/item/1005004418858018.html |
 | LCD Display Screen Adhesive Strip Sticker Tape + Opening Tool Kit for Apple iMac 21.5" A1418 A2116 27" A1419 A2115 - model **model 27inch Adhesive Tool** ![Opening Tool Kit](images/Tool%20Kit%20and%20Adhesive%20iMac%2027%202017.png) | https://www.aliexpress.com/item/1005004826457033.html |
-| 2x JST XH (2.54mm) 2 pin, cable - female (stock FAN & Noctua FAN) ![jst xh](images/JST%20XH%202pin%20kabel.jpg) | https://www.gme.cz/v/1514940/jst-xh-2pin-kabel or local store |
+| 1x JST XH (2.54mm) 2 pin, cable - female (stock FAN & Noctua FAN) ![jst xh](images/JST%20XH%202pin%20kabel.jpg) | https://www.gme.cz/v/1514940/jst-xh-2pin-kabel or local store |
 | 1x JST PH (2mm) series 4 pin, cable - female (driver board speakers) ![jst ph](images/JST%20PH%202%20mm%204-Pin%20female.jpg) | http://www.hezkyden.cz/shop/konektory-ph20mm-prumyslova-propojka/ or local store |
+| 1x JST PH (2mm) series 2 pin, cable - female (power for PWM control board for Noctua fan from driver board) ![jst ph2](images/JST%20PH%202%20mm%204-Pin%20female.jpg) | http://www.hezkyden.cz/shop/konektory-ph20mm-prumyslova-propojka/ or local store |
 | 7642.05.01.9/F cable eyelet M4 for power grounding ![cable eyelet](images/cable%20eyelet%20M4%20for%20power%20grounding.jpg) | https://www.gme.cz/v/1499739/764205019-f-kabelove-ocko-m4 or local store |
 | 2W 180 Ohm rezistor to make stock fan quiet ![180 ohm rezistor](images/2W%20180%20Ohm%20rezistor.jpg) | https://www.gme.cz/v/1488150/gym-cym-rmo-180r-2w-5-0411-metal-oxidovy-rezistor or local store |
 | MOLEX 43640-0301 Micro-Fit 3.0 female 3mm, 1x3pin, for cable ![molex female](images/Molex%20Micro-Fit%203%20pin.jpg) | https://www.gme.cz/v/1502876/molex-43640-0301-micro-fit-30-vidlice-roztec-3mm-1x3piny-prima-na-kabel or local store |
@@ -88,5 +90,101 @@ All STL files are in stl folder.
 
 ## Build
 
-First cut ![](cimages/0%20first%20cut-2.jpeg)
+- For disassembly, see any video for example this one from [How-FixIT](https://www.youtube.com/watch?v=96MiQn645jI)
+- **Beware!** Use designated opening tool only, otherwise you can cut the cable to display which is near the top. If you use any other cutter, **do not cut too deep!** If do so, you will probably break the ribbon cable and result could be like in this post on Mac Rumors forum [DIY 5k Monitor - success :-)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/post-32835650).
+- If you have other model than iMac 2017, check display type before ordering driver board. When you dismount the display, type is in lower right part of the display. For iMac 2017, it is LM270QQ1.
+- If you don't want to use crossovers, remove the crossovers from the driver board and connect the speakers directly to the driver board. Speakers can be connected to series like this ![speaker to series](cimages/800_sound%20speaker%20to%20series.jpeg).
+
+### First cut :)
+
+![first cut](cimages/800_0%20first%20cut-2.jpeg)
+
+### Connecting and first testing
+
+When it all arrives, test driver board and current board.
+| Brightness cable connection to display | LVDS cable connection to display |
+| --- | --- |
+| ![bcable](cimages/800_cable%20display%20backlight.jpeg) | ![lvds](cimages/800_cable%20display%20connection%20-%20to%20lcd.jpeg) |
+
+
+Connect boards like this:  
+![borads test](cimages/1200_boards%20first%20testing.jpeg)
+
+### Speaker connectors
+
+With concatcs facing you it is:
+
+| Speaker connector | Description of PINs |
+| --- | --- |
+| ![speaker connector](cimages/800_sound%20repro%20connection.jpeg) | **Woofer +**<br>**Woofer -**<br>ID link (ignore)<br>ID link (ignore)<br>**Tweeter +**<br>**Tweeter -** |
+
+### Crossovers
+
+**Capacitors** are always connected to **Tweeter +** and **Driver Board +** for every channel  
+**Air-cored inductor** are always connected to **Woofer +** and **Driver Board +** for every channel  
+**-** are connected together in speaker connector and connected to **Driver Board -** for every channel  
+
+| Crossover testing | PaulD-UK schema from Mac Rumors forum |
+| --- | --- |
+| ![crossover testing](cimages/800_crossover.jpeg) | ![crossover schema](cimages/crossover%20connection%20PaulD-UK.jpg) |
+
+### Driver Board speaker connection
+
+| Driver Board Audio Connector | Description of channels |
+| --- | --- |
+| ![driver board audio](cimages/800_driver%20board%20audio%20connector.jpg) | **Left +**<br>**Left -**<br>**Right -**<br>**Right +** |
+
+### Camera
+
+Camera is connected by (included) USB cable to USB 2.0 hub. 3D printed part is a little bigger. I put the camera to lower right corner and I don't have issues with AF or image so I kept it like this.  
+
+![camera](cimages/800_camera%20close.jpeg)
+
+### Power
+
+I wanted to reuse power connector of iMac 2017. If you don't want to, you can skip this section. Otherwise, beware live wire and focus on soldering here.
+
+| Apple Power Connector with Live wire | Soldered Power Connector |
+| --- | --- |
+| ![apple power connector](cimages/800_power%20conn%20live%20wire.jpeg) | ![soldered power connector](cimages/800_power%20conn%20finished.jpeg) |
+
+| Final connection to stock power adapter | Soldering of Live wire example |
+| --- | --- |
+| ![final connection](cimages/800_power%20230V%20connection.jpeg) | ![soldering live wire](cimages/800_power%20solder.jpeg) |
+
+### Fans
+
+Power Supply is in iMac case so I need some fresh air there but also keep display quiet. So I modified Apple logo and placed Noctua fan there which (after small cutout on the left side) fits that space perfectly.
+
+- Use heatgun for a couple of seconds to get rid of the thin cover.
+- Cut like about 1mm of logo on the left side so fan fits perfectly.
+- Mark 4 holes for mounting the fan.
+- Then I used thin and very sharp knife to mark circle around fan so I know where to cut the circle to logo.
+
+![noctua 1](cimages/1200_fan%20top%20Noctua%201.jpeg)  
+![noctua 2](cimages/1200_fan%20top%20Noctua%202.jpeg)  
+![noctua 3](cimages/1200_fan%20top%20Noctua%203.jpeg)  
+![noctua 4](cimages/1200_fan%20top%20Noctua%204.jpeg)  
+![noctua 5](cimages/1200_fan%20top%20Noctua%205.jpeg)  
+
+- Connect fan to extension cable included in Noctua box with fan and then to PWM control module.
+
+![noctua extension](cimages/800_fan%20top%20Noctua%20with%20extension%20cable.jpeg)
+
+- I placed probe of the module behind power supply (top part) so I can check highest temperature of the display when it's assembled.
+
+![top probe](cimages/800_fan%20top%20Noctua%20probe%20place%20power.jpeg)
+
+- Remove the arrows from JST PH 2 pin connector so it can be connected to driver board.
+
+![jst xh fan noctua](cimages/800_fan%20top%20Noctua%20connector%20removed%20lines.jpeg)
+
+- Connect this connector (later) to driver board here. **Ignore cable colors on my pictures, just connect + on driver board to + cable on PWM module** and the same with -
+- Polarity is written on the back of the driver board but to be sure, **use multimeter to check polarity!**
+
+![jst xh noctua control connected to driver board](cimages/800_fan%20top%20Noctua%20power%20connection.jpeg)
+
+- Solder connectors to the PWM module and connect it like this
+
+![pwm power wires](cimages/1200_fan%20connection%20controllers%20on%20board.jpeg)
 
