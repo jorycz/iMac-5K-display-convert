@@ -1,6 +1,19 @@
 # 27" iMac 2017 to 5K Display Conversion
 
-Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection. Ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case. Files for 3D printer are included.
+## Result with speakers, camera and external microphone
+
+Under display is
+- Control strip for R1811
+- Temperature of R1811 CPU and inside the case, behind power supply
+- Home made microphone
+
+![final iMac 5K display](cimages/1200_iMac%205K%20display%20connected%20by%20USB-C.jpeg)
+
+Top is CPU temperature and bottom is case temperature behind power supply.
+
+![temp probes](cimages/800_final%20assembly%20controllers.jpeg)
+
+Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case. Files for 3D printer are included.
 
 
 ## What is inside the iMac case
@@ -87,6 +100,9 @@ All STL files are in stl folder.
 - USB Camera Mount
   - For camera, I used Camera Mount from here https://www.printables.com/model/311111-apple-imac-27-2014-5k-monitor-conversion
 
+| Crossovers | Driver Board | Current Board |
+| --- | --- | --- |
+| ![crossovers](cimages/800_3d%20crossovers.jpeg) | ![driver board](cimages/800_3d%20driver%20board.jpeg) | ![current board](cimages/800_3d%20current%20board.jpeg) |
 
 ## Build
 
@@ -215,3 +231,22 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 | Increased hole in the case | So wires can easily go behind the case |
 | --- | --- |
 | ![w1209 case](cimages/800_fan%20main%20controler%20case%20hole.jpeg) | ![w1209 connections](cimages/800_fan%20main%20controler%20connections.jpeg) |
+
+### Final assembly
+
+- Driver Board R1811 on 3D printed holder
+
+![final board](cimages/1200_board%20main%20final%20on%203d.jpeg)  
+
+- Connectors reachable throught RAM door
+
+![final conns](cimages/800_final%20build%20connectors.jpeg)  
+
+- Final assembly
+- I soldered 2 USB cables to get them outside so I can use iMac back port holes without cutting them
+- Camera is connected to the top USB port of the hub (covered by right crossover on picture)
+- Camera cable is pretty long and is hidden under current board
+- Camera litte control board above of Noctua fan is fixed on place by hot-melt hand gun
+- Power supply is fixed on HDD enclosure by Epoxy glue
+
+![final assembly](cimages/1200_final%20build%20completed.jpeg)
