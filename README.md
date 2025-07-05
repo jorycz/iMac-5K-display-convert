@@ -156,12 +156,12 @@ I wanted to reuse power connector of iMac 2017. If you don't want to, you can sk
 
 ### Fans
 
-Power Supply is in iMac case so I need some fresh air there but also keep display quiet. So I modified Apple logo and placed Noctua fan there which (after small cutout on the left side) fits that space perfectly.
+Power Supply is in iMac case so I need some fresh air in there but also keep display quiet. So I modified Apple logo and placed Noctua fan there which (after small cutout on the left side) fits this space perfectly.
 
-- Use heatgun for a couple of seconds to get rid of the thin cover.
-- Cut like about 1mm of logo on the left side so fan fits perfectly.
-- Mark 4 holes for mounting the fan.
-- Then I used thin and very sharp knife to mark circle around fan so I know where to cut the circle to logo.
+- Use heatgun for a couple of seconds to get rid of the thin cover
+- Cut like about 1mm of logo on the left side so fan fits perfectly inside the logo
+- Mark 4 holes for mounting the fan
+- Then I used thin and very sharp knife to mark circle around fan so I know where to cut the circle to logo
 
 ![noctua 1](cimages/1200_fan%20top%20Noctua%201.jpeg)  
 ![noctua 2](cimages/1200_fan%20top%20Noctua%202.jpeg)  
@@ -173,7 +173,7 @@ Power Supply is in iMac case so I need some fresh air there but also keep displa
 
 ![noctua extension](cimages/800_fan%20top%20Noctua%20with%20extension%20cable.jpeg)
 
-- I placed probe of the module behind power supply (top part) so I can check highest temperature of the display when it's assembled.
+- I placed probe of the module behind power supply (top part) so I can check highest temperature area of the display.
 
 ![top probe](cimages/800_fan%20top%20Noctua%20probe%20place%20power.jpeg)
 
@@ -184,7 +184,9 @@ Power Supply is in iMac case so I need some fresh air there but also keep displa
 - Connect this connector (later) to driver board here. **Ignore cable colors on my pictures, just connect + on driver board to + cable on PWM module** and the same with -
 - Polarity is written on the back of the driver board but to be sure, **use multimeter to check polarity!**
 
-![jst xh noctua control connected to driver board](cimages/800_fan%20top%20Noctua%20power%20connection.jpeg)
+| Power for PWM control module for Noctua fan | Polarity. Check with multimeter! |
+| --- | --- |
+| ![jst xh noctua control connected to driver board](cimages/800_fan%20top%20Noctua%20power%20connection.jpeg) | - - + + + |
 
 - Solder connectors to the PWM module and connect it like this
 
