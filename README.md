@@ -188,7 +188,13 @@ Power Supply is in iMac case so I need some fresh air in there but also keep dis
 | --- | --- |
 | ![jst xh noctua control connected to driver board](cimages/800_fan%20top%20Noctua%20power%20connection.jpeg) | - - + + + |
 
-- Solder connectors to the PWM module and connect it like this
+- PWM control module. Connect Noctua extension cable on the right side.
+
+![PWM control module](cimages/800_PWM%20control%20module%20schema.png)
+
+- Solder connectors for power of the PWM module and connect it like this
+  - On the right side, there is fully connected PWM control module with Noctua extended cable, power from driver board and (included) probe.
+  - On the left side, there is simple relay W1209 module with 180 Ω resistor (hidden in insulation) on +ve wire of stock fan.
 
 ![pwm power wires](cimages/1200_fan%20connection%20controllers%20on%20board.jpeg)
 
