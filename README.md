@@ -101,14 +101,14 @@ All STL files are in stl folder.
 
 ### Connecting and first testing
 
-When all parts arrives, test driver board and current board. Pay attention to details. Cables must be positioned exactly like on pictures.
+When all parts arrives, test driver board and current board. Pay attention to details. Cables must be positioned exactly as on pictures.
 
 | Brightness cable connection to display | LVDS cable connection to display |
 | --- | --- |
 | ![bcable](cimages/800_cable%20display%20backlight.jpeg) | ![lvds](cimages/800_cable%20display%20connection%20-%20to%20lcd.jpeg) |
 
 
-Connect cables to boards. Do not forget R1811 control strip.  
+Connect cables to boards. Do not forget R1811 control strip which is on the bottom right corner of driver board on this picture.  
   
 ![borads test](cimages/1200_boards%20first%20testing.jpeg)
 
