@@ -185,7 +185,7 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 ![jst xh fan noctua](cimages/800_fan%20top%20Noctua%20connector%20removed%20lines.jpeg)
 
 - Connect this connector (after soldering to PWM power cables) to driver board here
-- **Ignore cable colors on my pictures, just connect + on driver board to + cable on PWM module** and the same with -
+- **Ignore cable colors on pictures, connect +ve on driver board to +ve cable on PWM module** and the same with -ve
 - Polarity is written on the back of the driver board but to be sure, **use multimeter to check polarity!**
 
 | Power for PWM control module for Noctua fan | Polarity. Check with multimeter! |
