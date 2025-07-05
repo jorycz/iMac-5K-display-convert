@@ -157,9 +157,9 @@ I wanted to reuse power connector of iMac 2017. If you don't want to, you can sk
 ### Fans
 
 - **Noctua fan with PWM control module** is used as case fan. It sucks hot air from the case to outside and speed is controlled by temperature of probe behind power supply
-- **Stock fan on R1811 CPU with W1209 and 180 Ω resistor** to make it more quiet. Resistor is bridged when specified temperature is reached
+- **Stock fan on R1811 CPU with W1209 and 180 Ω resistor** to make it more quiet. Resistor is bridged when specified temperature on CPU heatsink is reached
 
-Power Supply is in iMac case so I need some fresh air in there but also keep display quiet. So I modified Apple logo and placed Noctua fan there which (after small cutout on the left side) fits this space perfectly.
+Power Supply is in iMac case so I need some fresh air in there but also keep the display quiet. So I modified Apple logo and placed Noctua fan there which (after small cutout on the left side) fits here perfectly.
 
 - Use heatgun for a couple of seconds to get rid of the thin cover
 - Cut like about 1mm of logo on the left side so fan fits perfectly inside the logo
