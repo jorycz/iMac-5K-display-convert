@@ -198,7 +198,7 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 
 - Connection overview of PWM control module for Noctua fan and W1209 relay module for stock fan
   - On the right side, fully connected PWM control module with Noctua extended cable, power from driver board and (included) probe (hidden).
-  - On the left side, simple relay W1209 module with 180 Ω resistor (hidden in insulation) on +ve wire of stock fan.
+  - On the left side, simple relay W1209 module with 180 Ω resistor (hidden in insulation) on +ve wire of stock fan with probe attached to heatsink.
 
 ![pwm power wires](cimages/1200_fan%20connection%20controllers%20on%20board.jpeg)
 
