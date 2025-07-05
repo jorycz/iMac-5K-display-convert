@@ -15,7 +15,6 @@ Top is CPU temperature and bottom is case temperature behind power supply.
 
 Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case. Files for 3D printer are included.
 
-
 ## What is inside the iMac case
 
 - Camera 3840 x 2160 12MP
@@ -27,6 +26,15 @@ Here are my notes from the conversion process. I wanted to use one cable (USB-C)
 - USB 2.0 hub (4 ports) for camera and 3x USB 2.0 ports outside of the case
 - Microphone is finally **outside of the case** for better sound quality, but still needs app with echo canceling for video calls
   - I tried microphones inside the case, but my voice was somehow distorted during video calls
+
+## Sources
+
+- [Most precious Mac Rumors thread - DIY 5k Monitor - success :-)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/)
+  - I read all the posts from the beginning before I started the conversion. I took me 2 weeks to read them all. This notes are for those, that want to convert their 27" iMac to 5K display using R1811 and don't want to waste time reading the whole thread which have 115 pages currently :)
+  - There is a lot of useful information in the thread though and helpful people like PaulD-UK.
+- [Mykola's blog](https://khronokernel.com/macos/2022/03/01/5K-MONITOR.html)
+- [aiwipro](https://github.com/aiwipro/5K-iMac-Studio-Display-Stock-Look)
+
 
 ## What you need
 
@@ -232,6 +240,18 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 | --- | --- |
 | ![w1209 case](cimages/800_fan%20main%20controler%20case%20hole.jpeg) | ![w1209 connections](cimages/800_fan%20main%20controler%20connections.jpeg) |
 
+### Sound card modification and Microphones soldering
+
+Remove the case of the Sound card. Connection is based on Sahas's Coco-Mic.
+
+| Asembly of Sound card with Microphones | Detail with capacitor |
+| --- | --- |
+| ![sound card assembly](cimages/800_sound%20card%20mic%2001.jpeg) | ![sound card detail](cimages/800_sound%20card%20mic%2002.jpeg) |
+
+| Coco-Mic schema | Final Part |
+| --- | --- |
+| ![coco-mic schema](cimages/cocomic.jpg) | ![sound card final](cimages/800_sound%20card%20mic%2003.jpeg) |
+
 ### Final assembly
 
 - Driver Board R1811 on 3D printed holder
@@ -248,5 +268,7 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 - Camera cable is pretty long and is hidden under current board
 - Camera litte control board above of Noctua fan is fixed on place by hot-melt hand gun
 - Power supply is fixed on HDD enclosure by Epoxy glue
+- Driver Board holder is shifted on the top side from the back of the iMac case using pads (in stl folder). 9 mm is on the left side and 6 mm is on the right side. Put it under holder between the holder and aluminium column
+- Nuts are prevented from falling out of the holder by using hot-melt glue
 
 ![final assembly](cimages/1200_final%20build%20completed.jpeg)
