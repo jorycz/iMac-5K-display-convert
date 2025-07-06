@@ -304,5 +304,5 @@ Let it detect DCC and then aadjust settings like this.
 
 # Final note
 
-That's it. It is working perferctly. When I connect MacBook Air M4 to the display using USB-C, display wakes up in couple of seconds and everything works like it was Apple designed. 😎
+That's it. It is working perfectly. When I connect MacBook Air M4 to the display using USB-C, display wakes up in couple of seconds and everything works like it was Apple designed. 😎
 
