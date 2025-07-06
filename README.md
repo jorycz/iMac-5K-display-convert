@@ -13,7 +13,10 @@ Top is CPU temperature and bottom is case temperature behind power supply.
 
 ![temp probes](cimages/800_final%20assembly%20controllers.jpeg)
 
-Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case. Files for 3D printer are included.
+Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case.  
+All files for 3D printed parts are also uploaded here, in `stl` folder.  
+Control volume and brightness is working using standard keys on Apple Keyboard with BetterDisplay installed.  
+Settings of display and software is at the end.
 
 ## What is inside the iMac case
 
@@ -272,3 +275,34 @@ Remove the case of the Sound card. Connection is based on Sahas's Coco-Mic.
 - Nuts are prevented from falling out of the holder by using hot-melt glue
 
 ![final assembly](cimages/1200_final%20build%20completed.jpeg)
+
+
+## Settings
+
+### Toggle OSD Language to English
+
+OSD Language is set to Chinese. You can find language menu as show on this picture. Chinese pictogram is 语言 (Language) and there is Chinese and English only.
+
+![osd lang](cimages/800_OSD%20language.png)
+
+### Color Profile
+
+I have another original iMac 2017 next to this one and most similar colors I get when I keep everything untouched and set **Gamma to 2.0**.
+
+![color profile](cimages/1200_color%20profile.png)
+
+### Better Display
+
+To be able to control volume and brightness using standard keys on keyboard, you need to install BetterDisplay. Free version is OK.  
+Let it detect DCC and then aadjust settings like this.  
+
+![bd mute](cimages/800_bd%20mute.png)
+![bd volume](cimages/800_bd%20volume.png)
+![bd contrast](cimages/800_bd%20contrast.png)
+![bd brightness](cimages/800_bd%20brightness.png)
+
+
+# Final note
+
+That's it. Ii is working perferctly. When I connect MacBook Air M4 to the display using USB-C, display wakes up in couple of seconds and everything works like it was Apple designed. 😎
+
