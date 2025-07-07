@@ -13,10 +13,10 @@ Top is CPU temperature and bottom is case temperature behind power supply.
 
 ![temp probes](cimages/800_final%20assembly%20controllers.jpeg)
 
-Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. If you want to use it, you can connect USB ethernet card to one of the USB 2.0 ports that are outside of the case.  
-All files for 3D printed parts are also uploaded here, in `stl` folder.  
-Control volume and brightness is working using standard keys on Apple Keyboard with BetterDisplay installed.  
-Settings of display and software is at the end.
+- Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. You can still connect USB ethernet card to one of the USB 2.0 ports that are outside of the case if you wish.
+- All files for 3D printed parts are also uploaded. You can find them in `stl` folder.
+- Control volume and brightness is working using standard keys on Apple Keyboard with BetterDisplay installed.
+- Settings of display and software is at the end.
 
 ## What is inside the iMac case
 
