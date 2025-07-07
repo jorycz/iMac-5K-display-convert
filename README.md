@@ -330,7 +330,7 @@ Let it detect DCC and then adjust settings like this.
 
 ### W1209 - Driver Board Fan Control
 
-- Press SET when it's running to show current temperature when relay switch to ON and eliminate the rezistor. I have set it to **39°C** so it will set CPU fan to 100% when 41°C is reached
+- Press SET when it's running to show current temperature when relay switch to ON and eliminate the rezistor. I have set it to **39°C** so it will set CPU fan to 100% when 41°C is reached. Never happened so far even during hot summer
 - Hold SET for SETUP other parameters if you wish
   - Full setup is [described here](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/page-75?post=33483781#post-33483781) if you need it
 
