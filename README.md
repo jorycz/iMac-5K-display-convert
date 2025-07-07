@@ -249,18 +249,6 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 | --- | --- |
 | ![w1209 case](cimages/800_fan%20main%20controler%20case%20hole.jpeg) | ![w1209 connections](cimages/800_fan%20main%20controler%20connections.jpeg) |
 
-### Sound card modification and Microphones soldering
-
-Remove the case of the Sound card. Connection is based on Sahas's Coco-Mic.
-
-| Asembly of Sound card with Microphones | Detail with capacitor |
-| --- | --- |
-| ![sound card assembly](cimages/800_sound%20card%20mic%2001.jpeg) | ![sound card detail](cimages/800_sound%20card%20mic%2002.jpeg) |
-
-| Coco-Mic schema | Final Part |
-| --- | --- |
-| ![coco-mic schema](cimages/cocomic.jpg) | ![sound card final](cimages/800_sound%20card%20mic%2003.jpeg) |
-
 ### Final assembly
 
 - Cables fixed on back of the display
@@ -298,7 +286,17 @@ I put small amount of glue from hot-glue gun on LED diode to make it more dim.
 
 ![control strip](cimages/800_control%20strip%20complete.jpeg)
 
-### External Microphone
+### Sound card modification and External Microphone
+
+Remove the case of the Sound card. Connection is based on Sahas's Coco-Mic.
+
+| Asembly of Sound card with Microphones | Detail with capacitor |
+| --- | --- |
+| ![sound card assembly](cimages/800_sound%20card%20mic%2001.jpeg) | ![sound card detail](cimages/800_sound%20card%20mic%2002.jpeg) |
+
+| Coco-Mic schema | Final Part |
+| --- | --- |
+| ![coco-mic schema](cimages/cocomic.jpg) | ![sound card final](cimages/800_sound%20card%20mic%2003.jpeg) |
 
 For microphone, I just quickly designed box just for testing purposes and finally keep it. I used white plastic walls from Driver Board box as sound insulation to help with noise from speakers.
 
