@@ -263,6 +263,10 @@ Remove the case of the Sound card. Connection is based on Sahas's Coco-Mic.
 
 ### Final assembly
 
+- Cables fixed on back of the display
+
+![cables on display](cimages/1200_cables%20fixed%20on%20display.jpeg)
+
 - Driver Board R1811 on 3D printed holder
 
 ![final board](cimages/1200_board%20main%20final%20on%203d.jpeg)  
