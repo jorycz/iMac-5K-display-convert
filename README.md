@@ -1,6 +1,6 @@
 # 27" iMac 2017 to 5K Display Conversion
 
-Here are my notes from the conversion process of 27" iMac 2017 which utilize P3 display to standalone 5K resolution display 5120 x 2880 @ 60Hz / 10bit. It is working like stock 5K displej where all is working out of the box with just plug of the single USB-C cable.
+Here are my notes from the conversion process of 27" iMac 2017 which utilize P3 display to standalone 5K resolution display 5120 x 2880 @ 60Hz / 10bit. It is working like stock 5K displej where everything is working out of the box with just plug of the single USB-C cable.
 
 ## Result with speakers, camera and external microphone
 
