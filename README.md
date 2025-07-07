@@ -33,8 +33,8 @@ Settings of display and software is at the end.
 ## Sources
 
 - [Most precious Mac Rumors thread - DIY 5k Monitor - success :-)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/)
-  - I read all the posts from the beginning before I started the conversion. I took me 2 weeks to read them all. This notes are for those, that want to convert their 27" iMac to 5K display using R1811 and don't want to waste time reading the whole thread which have 115 pages currently :)
-  - There is a lot of useful information in the thread though and helpful people like PaulD-UK.
+  - I read all the posts from the beginning before I started the conversion. I took me 2 weeks to read them all. This documentation is for those, who want to convert their 27" iMac to 5K display using R1811 and don't want to waste time reading the whole thread which have 115 pages currently :)
+  - There is a lot of useful information in the thread though and helpful people like PaulD-UK so if you have a time, I recommend you to read the whole thread.
 - [Mykola's blog](https://khronokernel.com/macos/2022/03/01/5K-MONITOR.html)
 - [aiwipro](https://github.com/aiwipro/5K-iMac-Studio-Display-Stock-Look)
 
@@ -275,6 +275,27 @@ Remove the case of the Sound card. Connection is based on Sahas's Coco-Mic.
 - Nuts are prevented from falling out of the holder by using hot-melt glue
 
 ![final assembly](cimages/1200_final%20build%20completed.jpeg)
+
+### Back of the display
+
+| RAM door | Whole back |
+| --- | --- |
+| ![ram door](cimages/800_RAM%20door%20outside.jpeg) | ![back of the display](cimages/800_RAM%20door%20back.jpeg) |
+
+### Control Strip
+
+I put small amount of glue from hot-glue gun on LED diode to make it more dim.
+
+![control strip](cimages/800_control%20strip%20complete.jpeg)
+
+### External Microphone
+
+For microphone, I just quickly designed box just for testing purposes and finally keep it. I used white plastic walls from Driver Board box as sound insulation to help with noise from speakers.
+
+| Microphone | Microphone |
+| --- | --- |
+| ![microphone box](cimages/800_mic%201.jpeg) | ![microphone box](cimages/800_mic%202.jpeg) |
+| ![microphone box](cimages/800_mic%203.jpeg) | ![microphone box](cimages/800_mic%204.jpeg) |
 
 
 ## Settings
