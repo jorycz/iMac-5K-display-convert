@@ -4,12 +4,12 @@
 
 Under display is
 - Control strip for R1811
-- Temperature of R1811 CPU and inside the case, behind power supply
+- Temperature of R1811 CPU and behind power supply
 - Home made microphone
 
 ![final iMac 5K display](cimages/1200_iMac%205K%20display%20connected%20by%20USB-C.jpeg)
 
-Top is CPU temperature and bottom is case temperature behind power supply.
+Top is CPU temperature and bottom is temperature behind power supply (between back of the case and power supply).
 
 ![temp probes](cimages/800_final%20assembly%20controllers.jpeg)
 
