@@ -1,5 +1,7 @@
 # 27" iMac 2017 to 5K Display Conversion
 
+Here are my notes from the conversion process of 27" iMac 2017 which utilize P3 display to standalone 5K resolution display 5120 x 2880 @ 60Hz / 10bit. It is working like stock 5K displej where all is working out of the box with just plug of the single USB-C cable.
+
 ## Result with speakers, camera and external microphone
 
 Under display is
@@ -13,7 +15,7 @@ Top is CPU temperature and bottom is temperature behind power supply (between ba
 
 ![temp probes](cimages/800_final%20assembly%20controllers.jpeg)
 
-- Here are my notes from the conversion process. I wanted to use one cable (USB-C) for everything (camera, speakers, microphone) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. You can still connect USB ethernet card to one of the USB 2.0 ports that are outside of the case if you wish.
+- I wanted to use one cable (USB-C) for everything (camera, speakers, microphone, charging) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. You can still connect USB ethernet card to one of the USB 2.0 ports that are outside of the case if you wish.
 - All files for 3D printed parts are also uploaded. You can find them in `stl` folder.
 - Control volume and brightness is working using standard keys on Apple Keyboard with BetterDisplay installed.
 - Settings of display and software is at the end.
