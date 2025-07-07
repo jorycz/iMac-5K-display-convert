@@ -27,8 +27,8 @@ Top is CPU temperature and bottom is case temperature behind power supply.
 - Current Board DZ-LP0818 (brightness board)
 - Noctua fan in position of Apple logo in the back
 - USB 2.0 hub (4 ports) for camera and 3x USB 2.0 ports outside of the case
-- Microphone is finally **outside of the case** for better sound quality, but still needs app with echo canceling for video calls
-  - I tried microphones inside the case, but my voice was somehow distorted during video calls
+- Microphone is finally **outside of the case** for better sound quality. Not working well for FaceTime because Apple does not support echo canceling. All others video conferencing apps are fine.
+  - I tried microphones inside the case, but my voice was somehow distorted during video calls, probably because of strong echo in the case.
 
 ## Sources
 
