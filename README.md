@@ -237,6 +237,10 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 
 ![stock fan w1209](cimages/1200_stock%20fan%20w1209%20connection.png)
 
+- W1209 description
+
+![w1209](cimages/800_w1209.jpeg)
+
 - I increased the size of the hole in the case of W1209
 
 | Increased hole in the case | So wires can easily go behind the case |
@@ -321,6 +325,21 @@ Let it detect DCC and then aadjust settings like this.
 ![bd volume](cimages/800_bd%20volume.png)
 ![bd contrast](cimages/800_bd%20contrast.png)
 ![bd brightness](cimages/800_bd%20brightness.png)
+
+### W1209 - Driver Board Fan Control
+
+- Press SET when it's running to show current temperature when relay switch to ON and eliminate the rezistor. I have set it to **39°C**
+- Hold SET for SETUP other parameters if you wish
+  - Full setup is [described here](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/page-75?post=33483781#post-33483781) if you need it
+
+### Noctua PWM Controller - Case Fan Control
+
+- Press OK when it's running to show current PWM setup in %. I have set it to **5%**
+- Hold OK for SETUP other parameters
+  - L30 changed to **L45** (this is temperature at which fan will start)
+  - H50 changed to **H60** (this is temperature at which fan will run at 100%)
+  - C20 is temperature at which fan will stop
+  - d 0 - PWM output direction (forward / rewerse) keep on 0
 
 
 # Final note
