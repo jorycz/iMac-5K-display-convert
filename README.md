@@ -321,7 +321,7 @@ I have another original iMac 2017 next to this one and most similar colors I get
 ### Better Display
 
 To be able to control volume and brightness using standard keys on keyboard, you need to install BetterDisplay. Free version is OK.  
-Let it detect DCC and then aadjust settings like this.  
+Let it detect DCC and then adjust settings like this.  
 
 ![bd mute](cimages/800_bd%20mute.png)
 ![bd volume](cimages/800_bd%20volume.png)
@@ -346,5 +346,7 @@ Let it detect DCC and then aadjust settings like this.
 
 # Final note
 
-That's it. It is working perfectly. When I connect MacBook Air M4 to the display using USB-C, display wakes up in couple of seconds and everything works like it was Apple designed. 😎
+That's it. It is working perfectly. When I connect MacBook Air M4 to the display using USB-C, display wakes up in couple of seconds and everything works like it was Apple designed (for half of the price of Apple Studio Display, iMac price included). 😎  
+  
+
 
