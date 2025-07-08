@@ -282,9 +282,11 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 
 ### Control Strip
 
-I put small amount of glue from hot-glue gun on LED diode to make it more dim.
+I put small amount of glue from hot-glue gun on LED diode to make it more dim and then 3 second glue to attach it to iMac case.
 
-![control strip](cimages/800_control%20strip%20complete.jpeg)
+| Control strip | Glued |
+| --- | --- |
+| ![control strip](cimages/800_control%20strip%20complete.jpeg) | ![control strip attached](cimages/800_control%20strip%20glued.jpeg) |
 
 ### Sound card modification and External Microphone
 
