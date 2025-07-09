@@ -262,7 +262,6 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 
 ![final conns](cimages/800_final%20build%20connectors.jpeg)  
 
-- Final assembly
 - I soldered 2 USB cables to get them outside so I can use iMac back port holes without cutting them
 - Camera is connected to the top USB port of the hub (covered by right crossover on picture)
 - Camera cable is pretty long and is hidden under current board
