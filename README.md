@@ -5,8 +5,7 @@ Here are my notes from the conversion process of 27" iMac 2017 which utilize P3 
 ## Result with speakers, camera and external microphone
 
 Under display is
-- Control strip for R1811
-- Temperature of R1811 CPU and behind power supply
+- Temperature of R1811 CPU and probe behind power supply (currently showing fan RPM)
 - Home made microphone
 
 ![final iMac 5K display](cimages/1200_iMac%205K%20display%20connected%20by%20USB-C.jpeg)
