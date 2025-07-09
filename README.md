@@ -5,14 +5,10 @@ Here are my notes from the conversion process of 27" iMac 2017 which utilize P3 
 ## Result with speakers, camera and external microphone
 
 Under display is
-- Temperature of R1811 CPU and probe behind power supply (currently showing fan RPM)
+- Temperature of R1811 CPU and (case) probe behind power supply (currently showing fan RPM)
 - Homemade microphone
 
 ![final iMac 5K display](cimages/1200_iMac%205K%20display%20connected%20by%20USB-C.jpeg)
-
-Top is CPU temperature and bottom is temperature behind power supply (between back of the case and power supply).
-
-![temp probes](cimages/800_final%20assembly%20controllers.jpeg)
 
 - I wanted to use one cable (USB-C) for everything (camera, speakers, microphone, charging) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. You can still connect USB ethernet card to one of the USB 2.0 ports that are outside of the case if you wish.
 - All files for 3D printed parts are also uploaded. You can find them in `stl` folder.
