@@ -91,7 +91,7 @@ If you don't want to use crossovers, you can connect the speakers to series.
 
 ## What to print on 3D printer
 
-All STL files are in stl folder.
+All STL files are in `stl` folder.
 
 - Current Board
 - Custom Crossover Left
