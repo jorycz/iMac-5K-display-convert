@@ -6,7 +6,7 @@ Here are my notes from the conversion process of 27" iMac 2017 which utilize P3 
 
 Under display is
 - Temperature of R1811 CPU and probe behind power supply (currently showing fan RPM)
-- Home made microphone
+- Homemade microphone
 
 ![final iMac 5K display](cimages/1200_iMac%205K%20display%20connected%20by%20USB-C.jpeg)
 
