@@ -11,7 +11,7 @@ Under display is
 ![final iMac 5K display](cimages/1200_iMac%205K%20display%20connected%20by%20USB-C.jpeg)
 
 - I wanted to use one cable (USB-C) for everything (camera, speakers, microphone, charging) except ethernet, because I already have a faster wireless connection and ethernet on USB 2.0 could be 100Mbps maximum. You can still connect USB ethernet card to one of the USB 2.0 ports that are outside of the case if you wish.
-- All files for 3D printed parts are also uploaded. You can find them in `stl` folder.
+- Files for 3D printed parts are on Printables (see below) or in `stl` folder.
 - Control volume and brightness is working using standard keys on Apple Keyboard with BetterDisplay installed.
 - Settings of display and software is at the end.
 
@@ -83,10 +83,11 @@ Under display is
 
 | Item | URL |
 | --- | --- |
-| 2x audio polypropylene capacitor 10µF | local store |
-| 2x air-cored inductor 0,15mH | local store |
+| (v1) 2x audio polypropylene capacitor 10µF or (v2) 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio from Aliexpress - **model 400V 10uF** ![capacitor](images/Ali Capacitor 10uF.png) | local store or Aliexpress |
+| (v1) 2x air-cored inductor 0,15mH or (v2) 1.21.51.6mm Oxygen-Free Copper Inductor Air-core Speaker Crossover Inductor Frequency Divider Inductance 0.2mH-5.5mH from Aliexpress - **model 1.2mm 0.36mH** ![inductor](images/Ali Inductor 0.36mH.png) | local store or Aliexpress |
 
-If you don't want to use crossovers, you can connect the speakers to series.
+* If you don't want to use crossovers, you can connect the speakers to series.
+* I'm testing which inductors work best.
 
 
 ## What to print on 3D printer
@@ -266,7 +267,15 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 - Driver Board holder is shifted on the top side from the back of the iMac case using pads (in stl folder). 9 mm is on the left side and 6 mm is on the right side. Put it under holder between the holder and aluminium column
 - Nuts are prevented from falling out of the holder by using hot-melt glue
 
+#### Version 1
 ![final assembly](cimages/1200_final%20build%20completed.jpeg)
+
+#### Version 2
+![final assembly](cimages/1200_final%20build%20completed%20v2.jpeg)
+
+* Capacitors and inductors (which are slightly different from v1) are used and so different left holder is used. Right holder is bigger in v2 (it is the left holder from v1).
+* Fan tunnel to better remove hot air from power supply is used, but I added it also to v1.
+* 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
 
 ### Back of the display
 
