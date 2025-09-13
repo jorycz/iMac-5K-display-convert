@@ -70,6 +70,8 @@ Under display is
 | MOLEX 43031-0007 male for Molex Micro-Fit ![molex male](images/Molex%20Micro-Fit%20krimpovaci%20kontakt.jpg) | https://www.gme.cz/v/1502732/molex-43031-0007-krimpovaci-kontakt or local store |
 | Tape 300 x 3,6 mm 100 pcs white ![vorel tape](images/VOREL%20Tape%20300.jpg) | https://www.alza.cz/EN/vorel-tape-300-x-3-6-mm-100-pcs-white-d8069517.htm or local store |
 | M3 Screw Bolt Nuts Kit 3x12mm ![m3](images/M3%20sroub%20matka.jpg) | https://www.gme.cz/v/1511744/wurth-slkm3x10-ocelovy-sroub-m3x10mm-phillips-zapustna-hlava-pozinkovany and https://www.gme.cz/v/1511808/wurth-skm3k-matice-m3 or local store |
+| M5TD USB C Extension Cable Type C Female to USB 2.0 Male Extender Converter Data Transfer Adapter for Phone Laptop ![USB to USB-C cable](images/USB%20to%20USB-C%20cable.png) | https://www.aliexpress.com/item/1005007331665334.html?spm=a2g0o.order_list.order_list_main.141.5a1f1802kSHMX1 |
+| OTG Cable Type C 10Gbps USB to Type C Adapter Connector for Laptop Phone Female USB to Male USB C Data Cable for Mouse Keyboard ![USB-C to USB connector](images/USB-C%20to%20USB%20connector.png) | https://www.aliexpress.com/item/1005007399154302.html?spm=a2g0o.order_list.order_list_main.126.5a1f1802kSHMX1 |
 
 ### Microphone
 
@@ -83,8 +85,8 @@ Under display is
 
 | Item | URL |
 | --- | --- |
-| (v1) 2x audio polypropylene capacitor 10µF or (v2) 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio from Aliexpress - **model 400V 6.8uF** IMAGE TODO | Aliexpress URL TODO or local store |
-| (v1) 2x air-cored inductor 0,15mH or (v2) 1.21.51.6mm Oxygen-Free Copper Inductor Air-core Speaker Crossover Inductor Frequency Divider Inductance 0.2mH-5.5mH from Aliexpress - **model 1.2mm 0.36mH** ![inductor part](images/Ali%20Inductor%200.36mH.png) | local store or Aliexpress |
+| (v1) 2x audio polypropylene capacitor **10µF** or (v2) 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio from Aliexpress - **model 400V 6.8uF** ![capacitor 6.8uF](images/Ali%20Capacitor%206.8uF.png) | https://www.aliexpress.com/item/1005002925052109.html?spm=a2g0o.order_list.order_list_main.10.672718020jC83x or local store |
+| (v1) 2x air-cored inductor **0,15mH** or (v2) 1.21.51.6mm Oxygen-Free Copper Inductor Air-core Speaker Crossover Inductor Frequency Divider Inductance 0.2mH-5.5mH from Aliexpress - **model 1.2mm 0.36mH** ![inductor part](images/Ali%20Inductor%200.36mH.png) | https://www.aliexpress.com/item/1005003307796576.html?spm=a2g0o.order_list.order_list_main.96.303f1802iYAODz or local store |
 
 * If you don't want to use crossovers, you can connect the speakers to series.
 * I'm testing which inductors work best.
