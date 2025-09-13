@@ -83,8 +83,8 @@ Under display is
 
 | Item | URL |
 | --- | --- |
-| (v1) 2x audio polypropylene capacitor 10µF or (v2) 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio from Aliexpress - **model 400V 10uF** ![capacitor](images/Ali Capacitor 10uF.png) | local store or Aliexpress |
-| (v1) 2x air-cored inductor 0,15mH or (v2) 1.21.51.6mm Oxygen-Free Copper Inductor Air-core Speaker Crossover Inductor Frequency Divider Inductance 0.2mH-5.5mH from Aliexpress - **model 1.2mm 0.36mH** ![inductor](images/Ali Inductor 0.36mH.png) | local store or Aliexpress |
+| (v1) 2x audio polypropylene capacitor 10µF or (v2) 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio from Aliexpress - **model 400V 6.8uF** IMAGE TODO | Aliexpress URL TODO or local store |
+| (v1) 2x air-cored inductor 0,15mH or (v2) 1.21.51.6mm Oxygen-Free Copper Inductor Air-core Speaker Crossover Inductor Frequency Divider Inductance 0.2mH-5.5mH from Aliexpress - **model 1.2mm 0.36mH** ![inductor part](images/Ali%20Inductor%200.36mH.png) | local store or Aliexpress |
 
 * If you don't want to use crossovers, you can connect the speakers to series.
 * I'm testing which inductors work best.
@@ -92,20 +92,13 @@ Under display is
 
 ## What to print on 3D printer
 
-All STL files are in `stl` folder.
-
 - Current Board
-- Custom Crossover Left
-- Custom Crossover Right
-- Driver Board pad 6 mm (for top right side of the driver board)
-- Driver Board pad 9 mm (for top left side of the driver board)
-- Driver Board
+- Custom Crossovers
+- Driver Board with both Pads
+- PWM Control Module Box with back wall
+- R1811 Control Strip with back wall
 - Microphone Box - front
 - Microphone Box - main
-- PWM Control Module Box - back
-- PWM Control Module Box - main
-- R1811 Control Strip - back
-- R1811 Control Strip - main
 - USB Camera Mount
   - For camera, I used Camera Mount from here https://www.printables.com/model/311111-apple-imac-27-2014-5k-monitor-conversion
 
@@ -147,8 +140,8 @@ Connect cables to boards. Do not forget R1811 control strip which is on the bott
 
 ### Crossovers
 
-**Capacitors** are always connected to **Tweeter +** and **Driver Board +** for every channel  
-**Air-cored inductor** are always connected to **Woofer +** and **Driver Board +** for every channel  
+**Capacitors** are connected to **Tweeter +** and **Driver Board +** for every channel  
+**Air-cored inductor** are connected to **Woofer +** and **Driver Board +** for every channel  
 **-** are connected together in speaker connector and connected to **Driver Board -** for every channel  
 
 | Crossover testing | PaulD-UK schema from Mac Rumors forum |
@@ -259,12 +252,12 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 
 ![final conns](cimages/800_final%20build%20connectors.jpeg)  
 
-- I soldered 2 USB cables to get them outside so I can use iMac back port holes without cutting them
+- Insert USB to USB-C cables with USB connectors through UTP port holes on the back of the case
 - Camera is connected to the top USB port of the hub (covered by right crossover on picture)
 - Camera cable is pretty long and is hidden under current board
 - Camera litte control board above of Noctua fan is fixed on place by hot-melt hand gun
 - Power supply is fixed on HDD enclosure by Epoxy glue
-- Driver Board holder is shifted on the top side from the back of the iMac case using pads (in stl folder). 9 mm is on the left side and 6 mm is on the right side. Put it under holder between the holder and aluminium column
+- Driver Board holder is shifted on the top side from the back of the iMac case using pads. 9 mm is on the left side and 6 mm is on the right side. Put it under holder between the holder and aluminium column
 - Nuts are prevented from falling out of the holder by using hot-melt glue
 
 #### Version 1
@@ -274,7 +267,7 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 ![final assembly](cimages/1200_final%20build%20completed%20v2.jpeg)
 
 * Capacitors and inductors (which are slightly different from v1) are used and so different left holder is used. Right holder is bigger in v2 (it is the left holder from v1).
-* Fan tunnel to better remove hot air from power supply is used, but I added it also to v1.
+* Fan tunnel to better removal of hot air from power supply is used, but I added it also to v1.
 * 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
 
 ### Back of the display
