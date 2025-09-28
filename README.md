@@ -85,8 +85,8 @@ Under display is
 
 | Item | URL |
 | --- | --- |
-| 2x 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio - **model 400V 10uF** ![capacitor 10uF](images/Ali%20Capacitor%2010uF.png) | https://www.aliexpress.com/item/1005002925052109.html?spm=a2g0o.order_list.order_list_main.101.75ef1802rZrBOv |
-| 0.07mH~3.3mH wire diameter 1.0mm American ERSE oxygen-free copper air-core inductor ALQ frequency divider is special - **model 1mm 0.15mH** ![inductor 0.15mH](images/Ali%20Inductor%20015mH.jpeg) | https://www.aliexpress.com/item/1005008969078518.html?spm=a2g0o.order_list.order_list_main.10.75ef1802rZrBOv |
+| 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio - **model 400V 10uF** ![capacitor 10uF](images/Ali%20Capacitor%2010uF.png) | https://www.aliexpress.com/item/1005002925052109.html?spm=a2g0o.order_list.order_list_main.101.75ef1802rZrBOv |
+| 2x 0.07mH~3.3mH wire diameter 1.0mm American ERSE oxygen-free copper air-core inductor ALQ frequency divider is special - **model 1mm 0.15mH** ![inductor 0.15mH](images/Ali%20Inductor%20015mH.jpeg) | https://www.aliexpress.com/item/1005008969078518.html?spm=a2g0o.order_list.order_list_main.10.75ef1802rZrBOv |
 
 * If you don't want to use crossovers, you can connect the speakers to series.
 
