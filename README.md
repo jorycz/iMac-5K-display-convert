@@ -85,11 +85,10 @@ Under display is
 
 | Item | URL |
 | --- | --- |
-| (v1) 2x audio polypropylene capacitor **10µF** or (v2) 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio from Aliexpress - **model 400V 6.8uF** ![capacitor 6.8uF](images/Ali%20Capacitor%206.8uF.png) | https://www.aliexpress.com/item/1005002925052109.html?spm=a2g0o.order_list.order_list_main.10.672718020jC83x or local store |
-| (v1) 2x air-cored inductor **0,15mH** or (v2) 1.21.51.6mm Oxygen-Free Copper Inductor Air-core Speaker Crossover Inductor Frequency Divider Inductance 0.2mH-5.5mH from Aliexpress - **model 1.2mm 0.36mH** ![inductor part](images/Ali%20Inductor%200.36mH.png) | https://www.aliexpress.com/item/1005003307796576.html?spm=a2g0o.order_list.order_list_main.96.303f1802iYAODz or local store |
+| 2x 2Pcs SPIRIT Audio Capacitor MKP Audiophile Frequency-Divided Divider 400V 2.2uF 3.3uF 3.9uF 4.7uF 6.8uF 10uF For Speaker Audio - **model 400V 10uF** ![capacitor 10uF](images/Ali%20Capacitor%2010uF.png) | https://www.aliexpress.com/item/1005002925052109.html?spm=a2g0o.order_list.order_list_main.101.75ef1802rZrBOv |
+| 0.07mH~3.3mH wire diameter 1.0mm American ERSE oxygen-free copper air-core inductor ALQ frequency divider is special - **model 1mm 0.15mH** ![inductor 0.15mH](images/Ali%20Inductor%20015mH.jpeg) | https://www.aliexpress.com/item/1005008969078518.html?spm=a2g0o.order_list.order_list_main.10.75ef1802rZrBOv |
 
 * If you don't want to use crossovers, you can connect the speakers to series.
-* I'm testing which inductors work best.
 
 
 ## What to print on 3D printer
@@ -268,7 +267,6 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 #### Version 2
 ![final assembly](cimages/1200_final%20build%20completed%20v2.jpeg)
 
-* Capacitors and inductors (which are slightly different from v1) are used and so different left holder is used. Right holder is bigger in v2 (it is the left holder from v1).
 * Fan tunnel to better removal of hot air from power supply is used, but I added it also to v1.
 * 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
 
