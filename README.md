@@ -93,9 +93,9 @@ Under display is
 
 ## What to print on 3D printer
 
-- Current Board
-- Custom Crossovers
-- Driver Board with both Pads
+- Current Board holder
+- Custom Crossover holders
+- Driver Board holder with both Pads
 - PWM Control Module Box with back wall
 - R1811 Control Strip with back wall
 - Microphone Box - front
@@ -103,9 +103,14 @@ Under display is
 - USB Camera Mount
   - For camera, I used Camera Mount from here https://www.printables.com/model/311111-apple-imac-27-2014-5k-monitor-conversion
 
-| Crossovers | Driver Board | Current Board |
-| --- | --- | --- |
-| ![crossovers](cimages/800_3d%20crossovers.jpeg) | ![driver board](cimages/800_3d%20driver%20board.jpeg) | ![current board](cimages/800_3d%20current%20board.jpeg) |
+| Left Crossover holder | Right Crossover holders |
+| --- | --- |
+| ![rcross](cimages/800_3d_left_crossover.jpeg) | ![lcross](cimages/800_3d_right_crossovers.jpeg) |
+
+| Driver Board holder | Current Board holder |
+| --- | --- |
+| ![driver board](cimages/800_driver_board_holder.jpeg) | ![current board](cimages/800_current_board_holder.jpeg) |
+
 
 ## Build
 
@@ -261,13 +266,13 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 - Driver Board holder is shifted on the top side from the back of the iMac case using pads. 9 mm is on the left side and 6 mm is on the right side. Put it under holder between the holder and aluminium column
 - Nuts are prevented from falling out of the holder by using hot-melt glue
 
-#### Version 1
-![final assembly](cimages/1200_final%20build%20completed.jpeg)
+#### Final build with camera (ignore crossover holders)
+![final assembly](cimages/1200_final_build_completed_with_camera.jpeg)
 
-#### Version 2
-![final assembly](cimages/1200_final%20build%20completed%20v2.jpeg)
+#### Final build (without camera but correct crossovers)
+![final assembly](cimages/1200_final_build_completed.jpeg)
 
-* Fan tunnel to better removal of hot air from power supply is used, but I added it also to v1.
+* Fan tunnel to better removal of hot air from power supply is used.
 * 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
 
 ### Back of the display
