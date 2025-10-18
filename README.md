@@ -323,10 +323,10 @@ I have another original iMac 2017 next to this one and most similar colors I get
 To be able to control volume and brightness using standard keys on keyboard, you need to install BetterDisplay. Free version is OK.  
 Let it detect DCC and then adjust settings like this.  
 
-![bd mute](cimages/800_bd%20mute.png)
-![bd volume](cimages/800_bd%20volume.png)
-![bd contrast](cimages/800_bd%20contrast.png)
 ![bd brightness](cimages/800_bd%20brightness.png)
+![bd contrast](cimages/800_bd%20contrast.png)
+![bd volume](cimages/800_bd%20volume.png)
+![bd mute](cimages/800_bd%20mute.png)
 
 ### W1209 - Driver Board Fan Control
 
