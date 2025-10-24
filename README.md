@@ -272,7 +272,7 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 #### Final build (without camera but correct crossovers)
 ![final assembly](cimages/1200_final_build_completed.jpeg)
 
-* Fan tunnel to better removal of hot air from power supply is used.
+* **Do NOT use Fan tunnel** you can see on the pictures above. Temperature is higher with it. I will update pictures later.
 * 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
 
 ### Back of the display
