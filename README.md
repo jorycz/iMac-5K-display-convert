@@ -266,14 +266,11 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 - Driver Board holder is shifted on the top side from the back of the iMac case using pads. 9 mm is on the left side and 6 mm is on the right side. Put it under holder between the holder and aluminium column
 - Nuts are prevented from falling out of the holder by using hot-melt glue
 
-#### Final build with camera (ignore crossover holders)
+#### Final build
 ![final assembly](cimages/1200_final_build_completed_with_camera.jpeg)
 
-#### Final build (without camera but correct crossovers)
-![final assembly](cimages/1200_final_build_completed.jpeg)
-
-* **Do NOT use Fan tunnel** you can see on the pictures above. Temperature is higher with it. I will update pictures later.
 * 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
+* For left crossover holder I used **iMac 5K Display - Crossover Holders - Left.stl** (different than on picture)
 
 ### Back of the display
 
