@@ -341,9 +341,9 @@ Let it detect DCC and then adjust settings like this.
 
 ### Noctua PWM Controller - Case Fan Control
 
-- Press OK when it's running to show current PWM setup in %. I have set it to **5%**
+- Press OK when it's running to show current PWM setup in %. I have set it to **10%**
 - Hold OK for SETUP other parameters
-  - L30 changed to **L45** (this is temperature at which fan will start)
+  - L30 changed to **L42** (this is temperature at which fan will start)
   - H50 changed to **H60** (this is temperature at which fan will run at 100%)
   - C20 is temperature at which fan will stop
   - d 0 - PWM output direction (forward / rewerse) keep on 0
