@@ -93,15 +93,19 @@ Under display is
 
 ## What to print on 3D printer
 
+* I uploaded most of my 3D printed parts to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851). Search for parts with title `iMac 5K Display - ...`. Some of the parts are here in `stl` folder.
+
+- Driver Board holder with both Pads
 - Current Board holder
 - Custom Crossover holders
-- Driver Board holder with both Pads
 - PWM Control Module Box with back wall
 - R1811 Control Strip with back wall
 - Microphone Box - front
 - Microphone Box - main
 - USB Camera Mount
   - For camera, I used Camera Mount from here https://www.printables.com/model/311111-apple-imac-27-2014-5k-monitor-conversion
+- LCD holders can help if you want to keep LCD connected and case still open
+  - https://www.printables.com/model/1458530-imac-5k-display-lcd-holder
 
 | Left Crossover holder | Right Crossover holders |
 | --- | --- |
@@ -269,7 +273,6 @@ Power Supply is in iMac case so I need some fresh air in there but also keep the
 #### Final build
 ![final assembly](cimages/1200_final_build_completed_with_camera.jpeg)
 
-* 3D printed parts were improved and uploaded to my profile on [Printables.com](https://www.printables.com/@jorycz_3422851).
 * For left crossover holder I used **iMac 5K Display - Crossover Holders - Left.stl** (different than on picture)
 
 ### Back of the display
